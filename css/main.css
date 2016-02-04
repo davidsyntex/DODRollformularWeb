@@ -14,9 +14,7 @@ html,
 button,
 input,
 select,
-textarea {
-    color: #222;
-}
+textarea { color: #222; }
 
 html {
     font-size: 1em;
@@ -60,9 +58,7 @@ hr {
 audio,
 canvas,
 img,
-video {
-    vertical-align: middle;
-}
+video { vertical-align: middle; }
 
 /*
  * Remove default fieldset styles.
@@ -78,9 +74,7 @@ fieldset {
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
-    resize: vertical;
-}
+textarea { resize: vertical; }
 
 /* ==========================================================================
    Browse Happy prompt
@@ -97,7 +91,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+* { color: blue; }
 
 
 
@@ -179,9 +173,7 @@ textarea {
  * Hide visually and from screenreaders, but maintain layout
  */
 
-.invisible {
-    visibility: hidden;
-}
+.invisible { visibility: hidden; }
 
 /*
  * Clearfix: contain floats
@@ -201,18 +193,14 @@ textarea {
     display: table; /* 2 */
 }
 
-.clearfix:after {
-    clear: both;
-}
+.clearfix:after { clear: both; }
 
 /*
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
 
-.clearfix {
-    *zoom: 1;
-}
+.clearfix { *zoom: 1; }
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -225,9 +213,9 @@ textarea {
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -245,17 +233,11 @@ textarea {
     }
 
     a,
-    a:visited {
-        text-decoration: underline;
-    }
+    a:visited { text-decoration: underline; }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+    a[href]:after { content: " (" attr(href) ")"; }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+    abbr[title]:after { content: " (" attr(title) ")"; }
 
     /*
      * Don't show links for images, or javascript/internal links
@@ -263,9 +245,7 @@ textarea {
 
     .ir a:after,
     a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
+    a[href^="#"]:after { content: ""; }
 
     pre,
     blockquote {
@@ -278,13 +258,9 @@ textarea {
     }
 
     tr,
-    img {
-        page-break-inside: avoid;
-    }
+    img { page-break-inside: avoid; }
 
-    img {
-        max-width: 100% !important;
-    }
+    img { max-width: 100% !important; }
 
     @page {
         margin: 0.5cm;
@@ -298,7 +274,5 @@ textarea {
     }
 
     h2,
-    h3 {
-        page-break-after: avoid;
-    }
+    h3 { page-break-after: avoid; }
 }
